@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:rgba(81, 126, 156, 0.815);
+}
+
+.car-info, .racecar-info, .car-form, .racecar-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p, label {
+    font-size: 18px;
+    color: #555;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+

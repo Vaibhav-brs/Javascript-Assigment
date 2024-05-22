@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car and RaceCar</title>
+    <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+    <div class="car-form">
+        <h1>Enter Car Details</h1>
+        <label for="car-color">Color:</label>
+        <input type="text" id="car-color" placeholder="Enter car color">
+        <label for="car-manufacturer">Manufacturer:</label>
+        <input type="text" id="car-manufacturer" placeholder="Enter car manufacturer">
+        <button onclick="createCar()">Create Car</button>
+    </div>
+
+    <div class="car-info">
+        <h1>Car Information</h1>
+        <p id="car-details"></p>
+        <h2>Output Values</h2>
+        <p id="car-output"></p>
+    </div>
+
+    <div class="racecar-form">
+        <h1>Enter RaceCar Details</h1>
+        <label for="racecar-seats">Number of Seats:</label>
+        <input type="number" id="racecar-seats" placeholder="Enter number of seats">
+        <label for="racecar-manufacturer">Manufacturer:</label>
+        <input type="text" id="racecar-manufacturer" placeholder="Enter racecar manufacturer">
+        <button onclick="createRaceCar()">Create RaceCar</button>
+    </div>
+
+    <div class="racecar-info">
+        <h1>RaceCar Information</h1>
+        <p id="racecar-details"></p>
+        <h2>Output Values</h2>
+        <p id="racecar-output"></p>
+    </div>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
+
